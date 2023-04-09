@@ -1,0 +1,23 @@
+.intro-name {
+    align-items: center;
+    background-color: #FFE3E1;
+  }
+  
+  img {
+    max-width: 25%;
+    max-height:15%;
+    float: right;
+  }
+  
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }
+  .text p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
