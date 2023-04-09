@@ -1,2 +1,19 @@
-
+.project-container{
+    height: 100vh;
+    background-color: #FCF9EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
+  .project-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    flex-direction: column;
+  }
+  .project-container a{
+    color: blue;
+  }
