@@ -1,23 +1,35 @@
 .intro-name {
-    align-items: center;
-    background-color: #FFE3E1;
-  }
-  
-  img {
-    max-width: 25%;
-    max-height:15%;
-    float: right;
-  }
-  
-  .text {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 100vh;
+    flex-direction: row;
+    background-color: #D5ECC2;
   }
-  .text p{
-    line-height: 1.5;
-    display: inline-block;
-    vertical-align: middle;
+  
+  .text {
+    text-align: left;
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .image-wrapper {
+    width: 500px;
+    height: 500px;
+    border-radius: 60%;
+    overflow: hidden;
+    margin-left: 10%;
+    flex: 1;
+  }
+  
+  img {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
   }
   
