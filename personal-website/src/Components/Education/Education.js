@@ -24,7 +24,7 @@ function Education(){
     }
 
      return(
-        <div>
+        <div id ="Education">
             <Fade top>
             <div className='intro-name'>
                 <div className='text'>

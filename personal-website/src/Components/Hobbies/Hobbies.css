@@ -1,2 +1,47 @@
-
+.playlist {
+    width: 100%;
+    max-width: 660px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
   
+  .hobbies-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .hobbyList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+  }
+  
+  .hobbyList li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .hobbyList li::before {
+    content: '\1F307';
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .hobbyList li p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  a{
+    color: black;
+    padding-left: 1%;
+  }
+  
+ 

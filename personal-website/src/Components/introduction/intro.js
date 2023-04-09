@@ -7,7 +7,7 @@ function Intro(){
 
 
      return(
-        <div>
+        <div id ="Home">
             <Fade top>
                 <div className='intro-name'>
                     <div className='image-wrapper'>

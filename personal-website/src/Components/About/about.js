@@ -4,12 +4,12 @@ import Fade from 'react-reveal/Fade';
 
 function About(){
     return(
-      <div >
+      <div id ="About">
        <div class="about-container">
   <div class="about-info">
     <div class="about">
       <div class="header">
-        <h1>About Me</h1>
+        <h1>about me</h1>
       </div>
       <div class="about-text">
       <p>Welcome to my webstie! I am a third-year Software Engineering student at Western Univeristy. Over the past three years we have explored many aspects of the Software Development lifecycle and Software Development tools. I have taken particular interest in full-stack development, with most experience doing this with a MERN tool stack! 

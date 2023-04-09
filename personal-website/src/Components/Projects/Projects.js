@@ -7,7 +7,7 @@ function Projects(){
 
 
      return(
-        <div>
+        <div id =" Projects">
             <Fade top>
                 <div className='intro-name'>
                     <div className='image-wrapper'>
