@@ -1,9 +1,9 @@
-import './intro.css';
+import './Project.css';
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 
-function Intro(){
+function Projects(){
 
 
      return(
@@ -20,4 +20,4 @@ function Intro(){
             </Fade>
         </div>
     )
-}export default Intro
+}export default Projects

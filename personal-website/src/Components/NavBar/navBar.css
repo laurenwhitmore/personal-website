@@ -1,0 +1,26 @@
+.nav-bar {
+    background-color: #FF8A5C;
+    color: #fff;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    object-fit: cover;
+    z-index: 9999;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }

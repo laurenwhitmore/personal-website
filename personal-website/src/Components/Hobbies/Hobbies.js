@@ -1,9 +1,9 @@
-import './intro.css';
+import './Hobbies.css';
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 
-function Intro(){
+function Hobbies(){
 
 
      return(
@@ -14,10 +14,10 @@ function Intro(){
                     <img src={require('./img.jpeg')} alt="logo" />
                     </div>
                     <div className='text'>
-                    <h1>hi! i'm lauren</h1>
+                    <h1>hobbies</h1>
                     </div>
                 </div>
             </Fade>
         </div>
     )
-}export default Intro
+}export default Hobbies

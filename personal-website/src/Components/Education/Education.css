@@ -1,0 +1,32 @@
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .schools-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .schools {
+    background-color: #FFAAA7;
+    padding: 10%;
+    padding-left: 60%;
+    padding-right: 60%;
+    margin: 6%;
+    text-align: center;
+    width: 100%;
+    border-radius: 10pt;
+  }
+  .schools:hover{
+    cursor: pointer;
+    background-color: #FFD3B4;
+  }
+  .schools h1{
+    font-size: 15pt;
+  }
+  

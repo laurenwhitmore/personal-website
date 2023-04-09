@@ -4,11 +4,12 @@
     align-items: center;
     height: 100vh;
     flex-direction: row;
-    background-color: #D5ECC2;
+    background-color: #FCF9EA;
   }
   
   .text {
     text-align: left;
+    margin-right: 70px;
     flex: 1;
   }
   
